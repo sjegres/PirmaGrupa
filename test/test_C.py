@@ -1,5 +1,5 @@
 import pytest
-from src.uzdC import temp
+from src.uzdC import tmprtr as temp
 
 def test_0():
     assert temp(0) == 273.15
