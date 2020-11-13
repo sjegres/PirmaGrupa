@@ -18,11 +18,11 @@ from src.uzdD import temp
 def test_uzdD_rez_0():
      assert temp(32) == 0
 
-def test_uzdD_-273.15():
+def test_uzdD_273_15():
      assert temp(-459.67) == pytest.approx(-273.15)
 
-def test_uzdD_parak_mazs_mazaks_par_rez_-273.15():
+def test_uzdD_parak_mazs_mazaks_par_rez_273_15():
      assert temp(-460) == pytest.approx(-273.15)
 
-def test_uzdD_int()):
+def test_uzdD_int():
      assert temp(300) == pytest.approx(148.88889)
