@@ -11,7 +11,7 @@
         int vai float -- temperatūra Kelvina grādos
 """
 
-def tmprtr(t) :
+def temp(t) :
     k = t + 273.15
     if k <= 0 :
         k = 0
